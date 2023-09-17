@@ -1,0 +1,54 @@
+/* === Customization Section Start === */
+
+/* Background */
+body {
+    background-color: #000;
+}
+
+/* Main Container */
+.fancy-container {
+    background: rgba(0, 0, 0, 0.7);
+    /* Adjust the background opacity */
+    border-radius: 10px;
+    /* Adjust the border radius */
+    padding: 20px;
+    color: white;
+    transition: all 0.4s ease-in-out;
+    /* Transition for smooth effects */
+}
+
+/* Header */
+.fancy-header h1 {
+    font-size: 2.5em;
+    /* Edit the font size */
+    transition: all 0.4s ease-in-out;
+    /* Edit the transition time */
+}
+
+/* Gradient Text */
+.gradient-text {
+    background: linear-gradient(to right, red, yellow);
+    /* Edit gradient colors */
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+/* Flashy Hover Effect */
+.flashy-hover:hover {
+    background-color: black;
+    /* Edit hover background color */
+    color: yellow;
+    /* Edit hover text color */
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+    /* Edit transition duration */
+}
+
+/* === Customization Section End === */
+
+/* Wrapper for h1 to ensure it stays centered */
+.h1-wrapper {
+    display: inline-block;
+    text-align: center;
+}

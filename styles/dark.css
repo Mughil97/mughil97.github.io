@@ -1,0 +1,74 @@
+/* Dark Mode CSS */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a;
+    /* Dark background */
+}
+
+.container {
+    text-align: center;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #333;
+    /* Darker container */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+    /* Light shadow */
+}
+
+h1 {
+    color: #eee;
+    /* Light text */
+    font-size: 2.5em;
+}
+
+.tagline {
+    color: #ccc;
+    /* Lighter grey text */
+    font-style: italic;
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.social-icons {
+    margin: 20px;
+}
+
+.social-link {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #ddd;
+    /* Light grey text */
+}
+
+.social-link i {
+    font-size: 24px;
+}
+
+.about-me {
+    color: #bbb;
+    /* Light grey text */
+    margin: 20px;
+    font-size: 1em;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #007bff;
+    /* Blue button */
+    color: white;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
